@@ -7,6 +7,11 @@ I was done at around 8:15 for the main features. Time elapsed: 3:05 (breaks incl
 You can see exact commit hours by hovering on the date of a commit (or relative time):   
 ![see time](./see_commit_time.png)
 
+## Issues I had
+
+Understanding the JSON was a little hard at first. `1-soilmaps.json` is a little odd at first and searching through them using `filter` is a little inefficient.  
+It was my first time using `react-leaflet` (not `leaflet` itself) so the code might be unconventional. I apologize for this and did my best to keep it clean.
+
 ## Technologies used
 
 - `tailwindcss` to avoid writing css files  
