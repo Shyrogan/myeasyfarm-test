@@ -4,7 +4,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import reportWebVitals from './reportWebVitals';
 import Welcome from './welcome/Welcome';
 import Layout from "./layout/Layout"
+import App from './app/App';
 import "./index.css"
+import 'leaflet/dist/leaflet.css'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -14,8 +16,8 @@ root.render(
     <BrowserRouter>
       <Layout>
         <Routes>
-          <Route path="/" element={<Welcome />}>
-          </Route>
+          <Route index element={<Welcome />}></Route>
+          <Route path="/app" element={<App />}></Route>
         </Routes>
       </Layout>
     </BrowserRouter>
