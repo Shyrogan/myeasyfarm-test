@@ -6,6 +6,6 @@ I was done at around 8:15 for the main features. Time elapsed: 3:15 (breaks incl
 
 ## Technologies used
 
-`tailwindcss` to avoid writing css files
-`react-router-dom` to create routes in the application
-`leaflet` and `react-leaflet` for the map
+- `tailwindcss` to avoid writing css files  
+- `react-router-dom` to create routes in the application  
+- `leaflet` and `react-leaflet` for the map  
