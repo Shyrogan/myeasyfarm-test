@@ -7,6 +7,7 @@ import Layout from "./layout/Layout"
 import App from './app/App';
 import "./index.css"
 import 'leaflet/dist/leaflet.css'
+import FieldApp from './app/FieldApp';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -18,6 +19,7 @@ root.render(
         <Routes>
           <Route index element={<Welcome />}></Route>
           <Route path="/app" element={<App />}></Route>
+          <Route path="/soil/:id" element={<FieldApp />}></Route>
         </Routes>
       </Layout>
     </BrowserRouter>
