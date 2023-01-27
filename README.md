@@ -10,7 +10,7 @@ You can see exact commit hours by hovering on the date of a commit (or relative 
 ## Issues I had
 
 I had to work on a PC where I generally don't do any web-related code. I didn't have my VS Code setup and that wasted my a little bit of time when coding. Formating/indenting isn't also perfect because I wanted to fully focus on the project and not waste time on setting up a formatter such as Prettier.  
-Understanding the JSON was a little hard at first. `1-soilmaps.json` is a little odd at first and searching through them using `filter` is a little inefficient.  
+Understanding the JSON was a little hard at first. `1-soilmaps.json` is a little odd at first and searching through it using `filter` is a little inefficient.  
 It was my first time using `react-leaflet` (not `leaflet` itself) so the code might be unconventional. I apologize for this and did my best to keep it clean.
 
 ## Technologies used
